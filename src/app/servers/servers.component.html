@@ -7,6 +7,6 @@
 </button>
 <!-- <p>{{ allowNewServer }}</p> -->
 <!-- <p [innerText]="allowNewServer" ></p> -->
-<p>{{ createserverstatus }}</p>
+<p *ngIf="servercreated">{{ createserverstatus }}</p>
 <app-server></app-server>
 <app-server></app-server>

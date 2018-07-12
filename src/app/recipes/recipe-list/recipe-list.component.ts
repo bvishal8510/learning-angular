@@ -7,8 +7,8 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipe: Recipe[] = [
-    new Recipe('Test Recipe', 'A simple test recipe', 'djnvkjsdnv')
+  recipes: Recipe[] = [
+    new Recipe('Test Recipe', 'A simple test recipe', 'http://www.myrecipes.com/recipe/fettuccine-with-olive-oil')
   ];
 
   constructor() { }

@@ -8,8 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Test Recipe', 'A simple test recipe', 'http://www.myrecipes.com/recipe/fettuccine-with-olive-oil'),
-    new Recipe('Test Recipe 2', 'A simple test recipe2', 'http://www.myrecipes.com/recipe/fettuccine-with-olive-oil')
+    new Recipe('Test Recipe', 'A simple test recipe', 'https://spicysouthernkitchen.com/wp-content/uploads/tomato-cream-sauce-17.jpg'),
+    new Recipe('Test Recipe 2', 'A simple test recipe2', 'https://spicysouthernkitchen.com/wp-content/uploads/tomato-cream-sauce-17.jpg')
   ];
 
   constructor() { }
